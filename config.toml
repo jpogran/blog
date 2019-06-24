@@ -1,7 +1,12 @@
 baseURL      = "https://jamespogran.com/"
 title        = "James Pogran"
+slogan = "automate all the things"
+descripton = "automate all the things"
 languageCode = "en-us"
 
+[params]
+  slogan     = "The intersection of Prose and Technology"
+  descripton = "automate all the things"
 
 [params.social]
   facebook      = "full Social profile url in facebook"
