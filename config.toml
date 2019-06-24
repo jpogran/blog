@@ -4,6 +4,19 @@ slogan = "automate all the things"
 descripton = "automate all the things"
 languageCode = "en-us"
 
+[[menu.main]]
+  weight     = 1
+  identifier = "post"
+  name       = "Blog"
+  url        = "/post"
+
+[[menu.main]]
+  weight     = 0
+  identifier = "talk"
+  name       = "Talks"
+  url        = "/talk"
+
+
 [params]
   slogan     = "The intersection of Prose and Technology"
   descripton = "automate all the things"
