@@ -1,0 +1,37 @@
+<ul class="nav">
+  {{ with .Site.Params.social.twitter }}
+  <li class="nav-item">
+    <a href="{{ . }}" class="nav-link text-success" target="_blank">
+      <i class="fab fa-1x fa-twitter" title="twitter"></i>
+    </a>
+  </li>
+  {{end}}
+  {{ with .Site.Params.social.github }}
+  <li class="nav-item">
+    <a href="{{ . }}" class="nav-link text-success" target="_blank">
+      <i class="fab fa-1x fa-github" title="github"></i>
+    </a>
+  </li>
+  {{end}}
+  {{ with .Site.Params.social.stackoverflow }}
+  <li class="nav-item">
+    <a href="{{ . }}" class="nav-link text-success" target="_blank">
+      <i class="fab fa-1x fa-stack-overflow" title="stackoverflow"></i>
+    </a>
+  </li>
+  {{end}}
+  {{ with .Site.Params.social.linkedin }}
+  <li class="nav-item">
+    <a href="{{ . }}" class="nav-link text-success" target="_blank">
+      <i class="fab fa-1x fa-linkedin-in" title="linkedin"></i>
+    </a>
+  </li>
+  {{end}}
+  {{ with .Site.Params.social.rss }}
+  <li class="nav-item">
+    <a href="{{ . }}" class="nav-link text-success" target="_blank">
+      <i class="fas fa-1x fa-rss" title="rss"></i>
+    </a>
+  </li>
+  {{end}}
+</ul>
