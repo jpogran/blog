@@ -1,8 +1,13 @@
-baseURL      = "https://jamespogran.com/"
-title        = "James Pogran"
-slogan = "automate all the things"
-descripton = "automate all the things"
-languageCode = "en-us"
+baseURL         = "https://jamespogran.com/"
+title           = "James Pogran"
+slogan          = "automate all the things"
+descripton      = "automate all the things"
+languageCode    = "en-us"
+googleAnalytics = "UA-74930020-1"
+
+[taxonomies]
+  series = "series"
+  tags = "tags"
 
 [[menu.main]]
   weight     = 1
@@ -16,16 +21,16 @@ languageCode = "en-us"
   name       = "Talks"
   url        = "/talk"
 
-
 [params]
   slogan     = "The intersection of Prose and Technology"
   descripton = "automate all the things"
+  images     = ["img/learning_powershell_dsc_second_edition.png"]
 
 [params.social]
   facebook      = "full Social profile url in facebook"
   email         = "email@example.com"
   twitter       = "//twitter.com/ender2025"
-  linkedin      = "//linkedin.com/user/jamespogran"
-  stackoverflow = "//stackoverflow.com/user/1803"
+  linkedin      = "//linkedin.com/in/jamespogran"
+  stackoverflow = "//stackoverflow.com/users/1083/james-pogran"
   github        = "//github.com/jpogran"
   rss           = true
