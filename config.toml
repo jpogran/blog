@@ -5,6 +5,10 @@ descripton      = "automate all the things"
 languageCode    = "en-us"
 googleAnalytics = "UA-74930020-1"
 
+[permalinks]
+  posts = "/:title/"
+  talks = "/:title/"
+
 [taxonomies]
   series = "series"
   tags = "tags"
