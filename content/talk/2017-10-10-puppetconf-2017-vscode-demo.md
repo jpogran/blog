@@ -18,7 +18,3 @@ gallery:
 ### Presentation
 
 {{< youtube T6N4Cm-FJuI >}}
-
-### Slides
-
-{{< speakerdeck 3106afc326ac42ffad5cffcaa1b98637 >}}
