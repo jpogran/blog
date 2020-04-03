@@ -27,13 +27,13 @@ So how do you figure out what is going wrong?
 
 The first step is to run puppet with your same manifest, but in debug mode:
 
-{{< highlight powershell >}}
+{{< highlight powershell "linenos=table" >}}
 PS C:\Users\Administrator\Desktop> puppet apply --debug wakka.pp
 {{< / highlight >}}
 
 This outputs all the normal Puppet debug information you're used to, along with the debug information from the DSC execution. This extra information is largely the PowerShell code the Puppet dsc module generated in order to use `Invoke-DscResource`, which can be skipped at this moment, but will be helpful later on. Right now we're interested in the last message from the 'first pass', the `TEST` method:
 
-{{< highlight powershell >}}
+{{< highlight powershell "linenos=table" >}}
 VERBOSE: Time taken for configuration job to complete is 2.478 seconds
 {"rebootrequired":false,"indesiredstate":false,"errormessage":""}
 {{< / highlight >}}
@@ -46,25 +46,25 @@ Unfortunately DSC does not surface more information without some extra work. We 
 
 We go back to our output and copy the PowerShell code we saw earlier that invokes DSC:
 
-{{< highlight powershell >}}
-  PS C:\Users\Administrator\Desktop> $invokeParams = @{
-    Name          = 'xFirewall'
-    Method        = 'test'
-    Property      = @{
-      name = 'my_firewall'
-      enabled = 'True'
-      remoteaddress = @('130.230.0.0/16')
-    }
-    ModuleName = @{
-      ModuleName      = "C:/ProgramData/PuppetLabs/code/environments/production/modules/dsc/lib/puppet_x/dsc_resources/xNetworking/xNetworking.psd1"
-      RequiredVersion = "5.1.0.0"
-    }
+{{< highlight powershell "linenos=table" >}}
+PS C:\Users\Administrator\Desktop> $invokeParams = @{
+  Name          = 'xFirewall'
+  Method        = 'test'
+  Property      = @{
+    name = 'my_firewall'
+    enabled = 'True'
+    remoteaddress = @('130.230.0.0/16')
   }
+  ModuleName = @{
+    ModuleName      = "C:/ProgramData/PuppetLabs/code/environments/production/modules/dsc/lib/puppet_x/dsc_resources/xNetworking/xNetworking.psd1"
+    RequiredVersion = "5.1.0.0"
+  }
+}
 {{< / highlight >}}
 
 In order to get more information, we add the `Verbose` switch:
 
-{{< highlight powershell >}}
+{{< highlight powershell "linenos=table" >}}
 PS C:\Users\Administrator\Desktop> $invokeParams = @{
   Verbose       = $true
   Name          = 'xFirewall'
@@ -83,7 +83,7 @@ PS C:\Users\Administrator\Desktop> $invokeParams = @{
 
 Then we execute that inside our PowerShell console (without using Puppet):
 
-{{< highlight powershell >}}
+{{< highlight powershell "linenos=table" >}}
 PS C:\Users\Administrator\Desktop> $result = Invoke-DscResource @invokeParams
 VERBOSE: Perform operation 'Invoke CimMethod' with following parameters, ''methodName' = Resourcetest,'className' = MSFT_DSCLocalConfigurationManager,'namespaceName' = root/Microsoft/Windows/DesiredStateConfiguration'.
 VERBOSE: An LCM method call arrived from computer WINVAGR-MNSKSOE with user sid S-1-5-21-850066514-2495575711-3657759813-500.
@@ -105,7 +105,7 @@ This is a raw DSC run, doing the same exact stuff we had Puppet tell it to do be
 
 We're lucky, this particular DSC Resource outputs useful information to the **VERBOSE** PowerShell data stream, so we can see which property is not in the desired state.
 
-{{< highlight powershell >}}
+{{< highlight powershell "linenos=table" >}}
 VERBOSE: [WINVAGR-MNSKSOE]: [[xFirewall]DirectResourceAccess] Test-RuleProperties: RemoteAddress property value '130.230.0.0/255.255.0.0' does not match desired state '130.230.0.0/16'.
 {{< / highlight >}}
 
