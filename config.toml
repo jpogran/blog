@@ -27,12 +27,6 @@ theme = "exlibris"
   url        = "/book"
 
 [[menu.main]]
-  weight     = 3
-  identifier = "media"
-  name       = "Publications"
-  url        = "/media"
-
-[[menu.main]]
   weight     = 0
   identifier = "talk"
   name       = "Talks"

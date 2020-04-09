@@ -3,7 +3,6 @@ date: 2017-10-19T14:13:06-04:00
 title: "Diagnosing DSC and Puppet Executions"
 subtitle: "How to figure out what's going on when Puppet uses DSC"
 description: "How to figure out what's going on when Puppet uses DSC"
-summary: "How to figure out what's going on when Puppet uses DSC"
 aliases: [ /blog/dsc/puppet/diagnosing-dsc-and-puppet/ ]
 img: img/DAG_tagline_logo_background.png
 tags: [ dsc, puppet ]

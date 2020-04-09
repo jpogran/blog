@@ -1,7 +1,10 @@
 ---
 title: "Bleeding Edge VSCode Puppet Development"
+subTitle: "Bleeding Edge VSCode Puppet Development"
 img: img/puppet_and_vscode.png
 date: 2019-06-03T19:35:15-04:00
+series: ['featured']
+featured: true
 draft: true
 ---
 
