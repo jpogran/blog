@@ -7,7 +7,7 @@ aliases: [ /blog/dsc/puppet/diagnosing-dsc-and-puppet/ ]
 img: img/DAG_tagline_logo_background.png
 tags: [ dsc, puppet ]
 category: 'technical'
-series: ['dsc']
+series: ['featured']
 ---
 
 <p class="lead">
