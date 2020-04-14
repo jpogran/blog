@@ -7,13 +7,13 @@ aliases: [ /blog/puppet/puppet-day-one/ ]
 img: img/first_puppet_laptop.jpg
 tags: [ puppet ]
 gallery:
-  - url: img/puppet_labs_pin_art.jpg
+  - blogUrl: img/puppet_labs_pin_art.jpg
     image_path: img/puppet_labs_pin_art.jpg
     alt: "Puppet Labs Pin Art Sign"
-  - url: img/posts/puppet_labs_sign.jpg
+  - blogUrl: img/posts/puppet_labs_sign.jpg
     image_path: img/posts/puppet_labs_sign.jpg
     alt: "Puppet Labs main sign"
-  - url: img/posts/first_puppet_laptop.jpg
+  - blogUrl: img/posts/first_puppet_laptop.jpg
     image_path: img/posts/first_puppet_laptop.jpg
     alt: "First puppet laptop!"
 ---

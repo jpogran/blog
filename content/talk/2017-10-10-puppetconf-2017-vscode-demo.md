@@ -11,7 +11,7 @@ img: img/puppet_and_vscode.png
 tags: [ puppetconf, presentation, vscode, puppet ]
 youtube: "T6N4Cm-FJuI"
 gallery:
-  - url: img/posts/puppetconf2017/puppetconf2017_vscode_talk.jpg
+  - blogUrl: img/posts/puppetconf2017/puppetconf2017_vscode_talk.jpg
     image_path: img/posts/puppetconf2017/puppetconf2017_vscode_talk.jpg
 ---
 

@@ -2,7 +2,7 @@
 title: "PowerShell DSC module is now supported"
 shortTitle: "PowerShell DSC module is now supported"
 blogName: "Puppet Blog"
-url: "//puppet.com/blog/powershell-dsc-module-now-supported"
+blogUrl: "//puppet.com/blog/powershell-dsc-module-now-supported"
 img: img/logo_tagline_background.png
 published: 2016-01-20T14:13:06-04:00
 ---

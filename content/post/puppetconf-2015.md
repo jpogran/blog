@@ -7,11 +7,11 @@ aliases: [ blog/puppetconf/book/puppetconf-2015/ ]
 img: img/puppet_conf_2015_entry.jpg
 tags: [ puppetconf, dsc, puppet, book ]
 gallery:
-  - url: img/posts/puppetconf2015/puppet_conf_2015_meet_the_authors_banner.jpg
+  - blogUrl: img/posts/puppetconf2015/puppet_conf_2015_meet_the_authors_banner.jpg
     image_path: img/posts/puppetconf2015/puppet_conf_2015_meet_the_authors_banner.jpg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: img/posts/puppetconf2015/puppet_conf_2015_meet_the_authors_big_screen.jpg
+  - blogUrl: img/posts/puppetconf2015/puppet_conf_2015_meet_the_authors_big_screen.jpg
     image_path: img/posts/puppetconf2015/puppet_conf_2015_meet_the_authors_big_screen.jpg
     alt: "placeholder image 2"
     title: "Image 2 title caption"
