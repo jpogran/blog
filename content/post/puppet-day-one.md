@@ -3,7 +3,10 @@ date: 2015-06-08T14:13:06-04:00
 title: "Puppet Day One"
 subtitle: "Starting a new job"
 summary: "Puppet Day One"
-aliases: [ /blog/puppet/puppet-day-one/ ]
+aliases: [
+  "/blog/puppet/puppet-day-one/",
+  "2015-06-08-puppet-day-one/",
+]
 img: img/first_puppet_laptop.jpg
 tags: [ puppet ]
 gallery:

@@ -1,18 +1,19 @@
 ---
 date: 2017-10-19T14:13:06-04:00
 title: "Diagnosing DSC and Puppet Executions"
-subtitle: "How to figure out what's going on when Puppet uses DSC"
+subtitle: "How to figure out what's going on when Puppet uses DSC to ensure desired state"
 description: "How to figure out what's going on when Puppet uses DSC"
-aliases: [ /blog/dsc/puppet/diagnosing-dsc-and-puppet/ ]
+aliases: [
+  "/blog/dsc/puppet/diagnosing-dsc-and-puppet/",
+  "2017-10-19-diagnosing-dsc-and-puppet"
+]
 img: img/DAG_tagline_logo_background.png
 tags: [ dsc, puppet ]
 category: 'technical'
 series: ['featured']
 ---
 
-<p class="lead">
 While developing your Puppet manifests using the Puppet DSC module you might run into a problem with one of the DSC Resources.
-</p>
 
 The problem shows itself every execution, when Puppet says that the state has drifted and needs to be corrected. When you look at the state of the target node it appears to be correct, something must be wrong with Puppet, right? Well, as with most things, the answer is more complicated than it appears.
 

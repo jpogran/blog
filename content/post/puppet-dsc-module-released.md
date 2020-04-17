@@ -3,7 +3,10 @@ date: 2016-01-20T14:13:06-04:00
 title: "Puppet DSC module is now supported!"
 subtitle: "Puppet DSC module is now supported!"
 summary: "Puppet DSC module is now supported!"
-aliases: [ /blog/dsc/puppet/puppet-dsc-module-released ]
+aliases: [
+  "/blog/dsc/puppet/puppet-dsc-module-released",
+  "2016-01-20-puppet-dsc-module-released",
+]
 img: img/Puppet-Logo-Amber-White-lg.jpg
 tags: [ dsc, puppet ]
 ---

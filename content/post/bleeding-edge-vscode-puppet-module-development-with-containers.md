@@ -1,6 +1,6 @@
 ---
 title: "Bleeding Edge Puppet Development with Visual Studio Code"
-subTitle: "Using the new Puppet Extension and Microsoft Remote Development Extension Pack to develop Puppet modules"
+subTitle: "Using the new Puppet VS Code Extension and Microsoft Remote Development Extension Pack to develop Puppet manifests and modules"
 img: img/puppet_and_vscode.png
 date: 2019-06-03T19:35:15-04:00
 series: ['featured']

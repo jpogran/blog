@@ -3,7 +3,10 @@ date: 2015-10-03T14:13:06-04:00
 title: I'm going to PuppetConf!
 subtitle: I'm going to PuppetConf!
 summary: I'm going to PuppetConf!
-aliases: [ blog/puppetconf/book/puppetconf-2015/ ]
+aliases: [
+  "blog/puppetconf/book/puppetconf-2015/",
+  "2015-10-03-puppetconf-2015/"
+]
 img: img/puppet_conf_2015_entry.jpg
 tags: [ puppetconf, dsc, puppet, book ]
 gallery:

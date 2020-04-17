@@ -3,7 +3,10 @@ date: 2017-06-07T14:13:06-04:00
 title: "PuppetConf 2017 Agenda"
 subtitle: "Agenda and Speakers announced"
 summary: "Agenda and Speakers announced"
-aliases: [ /blog/puppetconf/puppetconf-2017 ]
+aliases: [
+  "/blog/puppetconf/puppetconf-2017",
+  "2017-06-07-puppetconf-2017",
+]
 img: img/puppetconf-logo.png
 tags: [ puppetconf, dsc, puppet, book ]
 ---
