@@ -3,7 +3,10 @@ date: 2016-01-27T14:13:06-04:00
 title:  "Author Interview by Puppet"
 subtitle:  "Author Interview by Puppet"
 summary:  "Author Interview by Puppet"
-aliases: [ /blog/dsc/puppet/book/puppet-book-blog-post ]
+aliases: [
+  "/blog/dsc/puppet/book/puppet-book-blog-post",
+  "2016-01-27-puppet-book-blog-post",
+]
 img: img/learning_powershell_dsc_first_edition.jpg
 tags: [ dsc, puppet, book ]
 ---

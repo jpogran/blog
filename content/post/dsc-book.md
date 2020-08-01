@@ -3,7 +3,10 @@ date: 2015-04-24T14:13:06-04:00
 title: PowerShell DSC Book
 subtitle: PowerShell DSC Book
 summary: PowerShell DSC Book
-aliases: [ /blog/book/dsc-book/ ]
+aliases: [
+  "/blog/book/dsc-book/",
+  "2015-04-24-dsc-book/",
+]
 img: img/learning_powershell_dsc_first_edition.jpg
 tags: [ dsc, puppet, book ]
 ---

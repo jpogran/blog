@@ -1,9 +1,12 @@
 ---
 date: 2015-08-19T14:13:06-04:00
 title: PowerShell DSC Book Finished!
-subtitle: PowerShell DSC Book Finished!
+subtitle: I finsihed my PowerShell DSC Book!
 summary: PowerShell DSC Book Finished!
-aliases: [ /blog/book/dsc-book-finished/ ]
+aliases: [
+  "/blog/book/dsc-book-finished/",
+  "2015-08-19-dsc-book-finished/",
+]
 img: img/learning_powershell_dsc_first_edition.jpg
 tags: [ dsc, puppet, book ]
 ---

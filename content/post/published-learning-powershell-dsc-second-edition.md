@@ -2,7 +2,10 @@
 date: 2017-09-11T14:13:06-04:00
 title: "Learning PowerShell DSC Second Edition is published!"
 subtitle: "My DSC book is done!"
-aliases: [ /blog/book/published-learning-powershell-dsc-second-edition ]
+aliases: [
+  "/blog/book/published-learning-powershell-dsc-second-edition",
+  "2017-09-11-published-learning-powershell-dsc-second-edition"
+]
 img: img/learning_powershell_dsc_second_edition.png
 tags: [ dsc, book ]
 ---

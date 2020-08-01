@@ -4,8 +4,10 @@ slogan          = "automate all the things"
 descripton      = "automate all the things"
 languageCode    = "en-us"
 googleAnalytics = "UA-74930020-1"
+theme = "exlibris"
 
 [permalinks]
+  books = "/:title/"
   posts = "/:title/"
   talks = "/:title/"
 
@@ -20,12 +22,19 @@ googleAnalytics = "UA-74930020-1"
   url        = "/post"
 
 [[menu.main]]
+  weight     = 2
+  identifier = "book"
+  name       = "Books"
+  url        = "/book"
+
+[[menu.main]]
   weight     = 0
   identifier = "talk"
   name       = "Talks"
   url        = "/talk"
 
 [params]
+  author     = "James Pogran"
   slogan     = "The intersection of Prose and Technology"
   descripton = "automate all the things"
   images     = ["img/learning_powershell_dsc_second_edition.png"]

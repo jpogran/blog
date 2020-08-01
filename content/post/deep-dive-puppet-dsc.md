@@ -1,9 +1,12 @@
 ---
 date: 2017-03-16T14:13:06-04:00
 title: "DSC deep dive: Installing and configuring IIS using Puppet and PowerShell DSC"
-subtitle: "DSC deep dive: Installing and configuring IIS using Puppet and PowerShell DSC"
+subtitle: "Installing and configuring IIS on Windows Server using Puppet and PowerShell DSC"
 summary: "DSC deep dive: Installing and configuring IIS using Puppet and PowerShell DSC"
-aliases: [ /blog/dsc/puppet/deep-dive-puppet-dsc ]
+aliases: [
+  "/blog/dsc/puppet/deep-dive-puppet-dsc",
+  "2017-03-16-deep-dive-puppet-dsc",
+]
 img: img/logo_tagline_background.png
 tags: [ dsc, puppet ]
 ---

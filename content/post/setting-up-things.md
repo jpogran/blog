@@ -3,6 +3,9 @@ date: 2015-03-05T14:13:06-04:00
 title: Setting Up Things
 subtitle: Setting Up Things
 summary: Setting Up Things
+aliases: [
+  "2015-03-05-setting-up-things/",
+]
 img: img/logo_background.png
 tags: [ ]
 ---
