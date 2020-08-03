@@ -1,0 +1,42 @@
+name: publish
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout blog
+      uses: actions/checkout@v2
+      with:
+        submodules: true
+
+    - name: checkout public
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.blog_pat }}
+        repository: jpogran/jpogran.github.io
+        path: public
+
+    - name: build hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+        extended: true
+
+    - name: Build
+      run: hugo --minify
+
+    - name: commit public
+      shell: pwsh
+      run: |
+          cd public
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated $(Get-Date)"
+          git push
