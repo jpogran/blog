@@ -7,7 +7,8 @@ aliases: [
   "/blog/book/dsc-book-finished/",
   "2015-08-19-dsc-book-finished/",
 ]
-img: img/learning_powershell_dsc_first_edition.jpg
+thumbnail: img/learning_powershell_dsc_first_edition.jpg
+featureImage: img/learning_powershell_dsc_first_edition.jpg
 tags: [ dsc, puppet, book ]
 ---
 

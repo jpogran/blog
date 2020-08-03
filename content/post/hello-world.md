@@ -6,7 +6,8 @@ summary: Hello World
 aliases: [
   "2015-03-05-hello-world/",
 ]
-img: img/logo_background.png
+thumbnail: img/logo_background.png
+featureImage: img/logo_background.png
 tags: [ ]
 ---
 

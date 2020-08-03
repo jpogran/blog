@@ -4,7 +4,7 @@ title:  "New Puppet Windows Webinar Series"
 subtitle:  "New Puppet Windows Webinar Series"
 summary:  "New Puppet Windows Webinar Series"
 aliases: [ /blog/dsc/puppet/presentation/windows-webinar-series ]
-img: img/Puppet-Logo-Amber-White-lg.jpg
+featureImage: img/Puppet-Logo-Amber-White-lg.jpg
 tags: [ dsc, presentation, puppet ]
 ---
 

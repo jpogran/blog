@@ -7,7 +7,8 @@ aliases: [
   "/blog/dsc/puppet/puppet-dsc-module-released",
   "2016-01-20-puppet-dsc-module-released",
 ]
-img: img/Puppet-Logo-Amber-White-lg.jpg
+thumbnail: img/Puppet-Logo-Amber-White-lg.jpg
+featureImage: img/Puppet-Logo-Amber-White-lg.jpg
 tags: [ dsc, puppet ]
 ---
 

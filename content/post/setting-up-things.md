@@ -6,7 +6,8 @@ summary: Setting Up Things
 aliases: [
   "2015-03-05-setting-up-things/",
 ]
-img: img/logo_background.png
+thumbnail: img/logo_background.png
+featureImage: img/logo_background.png
 tags: [ ]
 ---
 

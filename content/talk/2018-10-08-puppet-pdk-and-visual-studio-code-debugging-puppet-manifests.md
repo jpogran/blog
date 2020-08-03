@@ -6,7 +6,7 @@ speakerdeck: ""
 title: "Puppet PDK and Visual Studio Code - Debugging Puppet Manifests"
 subtitle: "Debugging Puppet Manifests"
 summary: "How to debug Puppet manifests using VSCode"
-img: img/puppet_and_vscode.png
+featureImage: img/puppet_and_vscode.png
 tags: [ presentation, vscode, pdk, puppetconf, puppetizelive ]
 ---
 

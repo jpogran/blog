@@ -4,7 +4,7 @@ title:  "Managing PowerShell DSC with Puppet"
 subtitle:  "Managing PowerShell DSC with Puppet"
 summary:  "Managing PowerShell DSC with Puppet"
 aliases: [ /blog/dsc/puppet/book/managing-dsc-with-puppet/ ]
-img: img/DAG_tagline_logo_background.png
+featureImage: img/DAG_tagline_logo_background.png
 tags: [ dsc, puppet, book ]
 ---
 

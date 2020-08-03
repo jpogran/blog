@@ -7,7 +7,8 @@ aliases: [
   "/blog/dsc/puppet/book/puppet-book-blog-post",
   "2016-01-27-puppet-book-blog-post",
 ]
-img: img/learning_powershell_dsc_first_edition.jpg
+thumbnail: img/learning_powershell_dsc_first_edition.jpg
+featureImage: img/learning_powershell_dsc_first_edition.jpg
 tags: [ dsc, puppet, book ]
 ---
 

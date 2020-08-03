@@ -3,7 +3,8 @@ title: "Powershell Conference Book 2"
 subTitle: "Forty subject matter experts have teamed up to bring you the ultimate collection of PowerShell topics that are designed to be like a conference in a book"
 date: 2020-01-31T16:03:16-04:00
 site: "https://leanpub.com/psconfbook2"
-img: img/powershell-conf-book-2.png
+thumbnail: img/powershell-conf-book-2.png
+featureImage: img/powershell-conf-book-2.png
 ---
 
 Forty subject matter experts have teamed up to bring you the ultimate collection of PowerShell topics that are designed to be like a conference in a book. This book not only delivers top-notch content that rivals any book on the market, but all royalties are donated to the OnRamp scholarship program which bootstraps others into the industry.

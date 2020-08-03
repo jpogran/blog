@@ -7,7 +7,7 @@ title: "Using Puppet and DSC to Report on Environment Change"
 subtitle: "PuppetConf 2017 Presentation"
 summary: "Using Puppet and DSC to Report on Environment Change"
 aliases: [ blog/puppetconf/presentation/puppetconf-2017-reporting-on-dsc-and-puppet-presentation/ ]
-img: img/puppetconf_2017_dsc_talk_placard_closeup.jpg
+featureImage: img/puppetconf_2017_dsc_talk_placard_closeup.jpg
 tags: [ puppetconf, presentation, dsc, puppet ]
 gallery:
   - blogUrl: img/posts/puppetconf2017/puppetconf_2017_dsc_talk_placard_closeup.jpg

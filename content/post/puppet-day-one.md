@@ -7,7 +7,8 @@ aliases: [
   "/blog/puppet/puppet-day-one/",
   "2015-06-08-puppet-day-one/",
 ]
-img: img/first_puppet_laptop.jpg
+thumbnail: img/first_puppet_laptop.jpg
+featureImage: img/first_puppet_laptop.jpg
 tags: [ puppet ]
 gallery:
   - blogUrl: img/puppet_labs_pin_art.jpg

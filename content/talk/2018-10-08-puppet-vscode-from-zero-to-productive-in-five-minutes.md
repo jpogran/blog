@@ -6,7 +6,7 @@ speakerdeck: ""
 title: "Puppet, PDK and Visual Studio Code - From Zero to Productive in 5 Minutes"
 subtitle: "From Zero to Productive in 5 Minutes"
 summary: "How to use VSCode and PDK to make Puppet code"
-img: img/puppet_and_vscode.png
+featureImage: img/puppet_and_vscode.png
 tags: [ presentation, vscode, pdk, puppetconf, puppetizelive ]
 ---
 

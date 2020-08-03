@@ -7,7 +7,7 @@ title: "Official Puppet VS Code Extension Demo"
 subtitle: "Puppet VSCode Extension PuppetConf 2017 Presentation"
 summary: "Puppet VSCode Extension PuppetConf 2017 Presentation"
 aliases: [ /blog/puppetconf/presentation/puppetconf-2017-vscode-demo/ ]
-img: img/puppet_and_vscode.png
+featureImage: img/puppet_and_vscode.png
 tags: [ puppetconf, presentation, vscode, puppet ]
 youtube: "T6N4Cm-FJuI"
 gallery:

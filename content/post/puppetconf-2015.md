@@ -7,7 +7,8 @@ aliases: [
   "blog/puppetconf/book/puppetconf-2015/",
   "2015-10-03-puppetconf-2015/"
 ]
-img: img/puppet_conf_2015_entry.jpg
+thumbnail: img/puppet_conf_2015_entry.jpg
+featureImage: img/puppet_conf_2015_entry.jpg
 tags: [ puppetconf, dsc, puppet, book ]
 gallery:
   - blogUrl: img/posts/puppetconf2015/puppet_conf_2015_meet_the_authors_banner.jpg

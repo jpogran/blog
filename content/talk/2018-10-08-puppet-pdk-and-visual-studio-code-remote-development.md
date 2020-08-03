@@ -6,7 +6,7 @@ speakerdeck: ""
 title: "Puppet PDK and Visual Studio Code - Remote Development"
 subtitle: "Puppet Remote Development With VSCode"
 summary: "How to use VSCode to develop Puppet code on remote servers"
-img: img/puppet_and_vscode.png
+featureImage: img/puppet_and_vscode.png
 tags: [ presentation, vscode, pdk, puppetconf, puppetizelive ]
 ---
 

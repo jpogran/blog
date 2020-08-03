@@ -7,10 +7,13 @@ aliases: [
   "/blog/dsc/puppet/diagnosing-dsc-and-puppet/",
   "2017-10-19-diagnosing-dsc-and-puppet"
 ]
-img: img/DAG_tagline_logo_background.png
-tags: [ dsc, puppet ]
+thumbnail: img/DAG_tagline_logo_background.png
+featureImage: img/DAG_tagline_logo_background.png
+shareImage: img/DAG_tagline_logo_background.png
+tags: [ dsc, puppet, featured ]
 category: 'technical'
 series: ['featured']
+toc: true
 ---
 
 While developing your Puppet manifests using the Puppet DSC module you might run into a problem with one of the DSC Resources.
@@ -27,16 +30,16 @@ So how do you figure out what is going wrong?
 
 The first step is to run puppet with your same manifest, but in debug mode:
 
-{{< highlight powershell "linenos=table" >}}
+```powershell
 PS C:\Users\Administrator\Desktop> puppet apply --debug wakka.pp
-{{< / highlight >}}
+```
 
 This outputs all the normal Puppet debug information you're used to, along with the debug information from the DSC execution. This extra information is largely the PowerShell code the Puppet dsc module generated in order to use `Invoke-DscResource`, which can be skipped at this moment, but will be helpful later on. Right now we're interested in the last message from the 'first pass', the `TEST` method:
 
-{{< highlight powershell "linenos=table" >}}
+```powershell
 VERBOSE: Time taken for configuration job to complete is 2.478 seconds
 {"rebootrequired":false,"indesiredstate":false,"errormessage":""}
-{{< / highlight >}}
+```
 
 This means DSC tested the state of the target node and found it non-compliant. But what was non-compliant?
 
@@ -46,7 +49,7 @@ Unfortunately DSC does not surface more information without some extra work. We 
 
 We go back to our output and copy the PowerShell code we saw earlier that invokes DSC:
 
-{{< highlight powershell "linenos=table" >}}
+```powershell
 PS C:\Users\Administrator\Desktop> $invokeParams = @{
   Name          = 'xFirewall'
   Method        = 'test'
@@ -60,11 +63,11 @@ PS C:\Users\Administrator\Desktop> $invokeParams = @{
     RequiredVersion = "5.1.0.0"
   }
 }
-{{< / highlight >}}
+```
 
 In order to get more information, we add the `Verbose` switch:
 
-{{< highlight powershell "linenos=table" >}}
+```powershell
 PS C:\Users\Administrator\Desktop> $invokeParams = @{
   Verbose       = $true
   Name          = 'xFirewall'
@@ -79,11 +82,11 @@ PS C:\Users\Administrator\Desktop> $invokeParams = @{
     RequiredVersion = "5.1.0.0"
   }
 }
-{{< / highlight >}}
+```
 
 Then we execute that inside our PowerShell console (without using Puppet):
 
-{{< highlight powershell "linenos=table" >}}
+```powershell
 PS C:\Users\Administrator\Desktop> $result = Invoke-DscResource @invokeParams
 VERBOSE: Perform operation 'Invoke CimMethod' with following parameters, ''methodName' = Resourcetest,'className' = MSFT_DSCLocalConfigurationManager,'namespaceName' = root/Microsoft/Windows/DesiredStateConfiguration'.
 VERBOSE: An LCM method call arrived from computer WINVAGR-MNSKSOE with user sid S-1-5-21-850066514-2495575711-3657759813-500.
@@ -99,15 +102,15 @@ VERBOSE: [WINVAGR-MNSKSOE]: LCM:  [ End    Test     ]  [[xFirewall]DirectResourc
 VERBOSE: [WINVAGR-MNSKSOE]: LCM:  [ End    Set      ]    in  0.6420 seconds.
 VERBOSE: Operation 'Invoke CimMethod' complete.
 VERBOSE: Time taken for configuration job to complete is 0.717 seconds
-{{< / highlight >}}
+```
 
 This is a raw DSC run, doing the same exact stuff we had Puppet tell it to do before, with the addition of telling DSC to output **VERBOSE** information. Not all DSC Resources output **VERBOSE** information, it's not required so it will be hit and miss looking for it on other DSC Resources.
 
 We're lucky, this particular DSC Resource outputs useful information to the **VERBOSE** PowerShell data stream, so we can see which property is not in the desired state.
 
-{{< highlight powershell "linenos=table" >}}
+```powershell
 VERBOSE: [WINVAGR-MNSKSOE]: [[xFirewall]DirectResourceAccess] Test-RuleProperties: RemoteAddress property value '130.230.0.0/255.255.0.0' does not match desired state '130.230.0.0/16'.
-{{< / highlight >}}
+```
 
 And we've found our bug.
 ## Next Steps

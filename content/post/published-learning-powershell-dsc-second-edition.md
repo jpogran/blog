@@ -6,7 +6,8 @@ aliases: [
   "/blog/book/published-learning-powershell-dsc-second-edition",
   "2017-09-11-published-learning-powershell-dsc-second-edition"
 ]
-img: img/learning_powershell_dsc_second_edition.png
+thumbnail: img/learning_powershell_dsc_second_edition.png
+featureImage: img/learning_powershell_dsc_second_edition.png
 tags: [ dsc, book ]
 ---
 

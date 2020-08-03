@@ -1,7 +1,8 @@
 ---
 title: "Puppet VS Code Podcast"
 subTitle: "I'm on the latest episode of the Puppet Pulling the Strings podcast talking about #vscode and #puppetize"
-img: img/puppet_and_vscode.png
+thumbnail: img/puppet_and_vscode.png
+featureImage: img/puppet_and_vscode.png
 date: 2020-04-17T13:17:20-04:00
 draft: true
 ---

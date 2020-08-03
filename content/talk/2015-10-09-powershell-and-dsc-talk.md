@@ -6,7 +6,7 @@ summary: PuppetConf 2015 PowerShell and DSC Session
 aliases: [
   "/puppetconf/dsc/puppet/presentation/powershell-and-dsc-talk/"
 ]
-img: img/puppet_conf_2015_entry.jpg
+featureImage: img/puppet_conf_2015_entry.jpg
 tags: [ puppetconf, presentation, dsc, puppet ]
 youtube: "TP0zqe-yQto"
 ---

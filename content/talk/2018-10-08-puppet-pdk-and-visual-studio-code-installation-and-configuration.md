@@ -6,7 +6,7 @@ speakerdeck: ""
 title: "Puppet PDK and Visual Studio Code - Installation and Configuration"
 subtitle: "Installation and Configuration"
 summary: "How to install VSCode and PDK"
-img: img/puppet_and_vscode.png
+featureImage: img/puppet_and_vscode.png
 tags: [ presentation, vscode, pdk, puppetconf, puppetizelive ]
 ---
 

@@ -7,7 +7,8 @@ aliases: [
   "/blog/puppetconf/puppetconf-2017",
   "2017-06-07-puppetconf-2017",
 ]
-img: img/puppetconf-logo.png
+thumbnail: img/puppetconf-logo.png
+featureImage: img/puppetconf-logo.png
 tags: [ puppetconf, dsc, puppet, book ]
 ---
 
