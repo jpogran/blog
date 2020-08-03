@@ -11,6 +11,10 @@ theme        = "hugo-clarity"
   posts = "/:title/"
   talks = "/:title/"
 
+[taxonomies]
+  series = "series"
+  tags = "tags"
+
 [params]
   author           = "James Pogran"
   introDescription = "The intersection of Prose and Technology"
