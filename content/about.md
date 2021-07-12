@@ -6,7 +6,7 @@ aliases: ["about-us", "contact"]
 ---
 
 - Principal Software Engineer [@puppetlabs](https://github.com/puppetlabs)
-- Co-founder https://pup.pt/
+- Co-founder https://pup.pt/vscode
 - Author of [Learning PowerShell DSC 2nd Edition](https://www.amazon.com/Learning-PowerShell-DSC-deployment-configuration/dp/1787287246) and contributor to  https://leanpub.com/psconfbook2
 
 
